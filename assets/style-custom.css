@@ -206,3 +206,28 @@
 	color: #111111;
 }
 /* [END] - Footer */
+
+.slide-content {
+  bottom: 45% !important;
+}
+
+@media (max-width: 576px) {
+  .section-slideshow-v5 .item-slide .slide-content {
+    width: 100%;
+    padding: 0 50px;
+    left: 50% !important;
+    top: 50%;
+    bottom: unset !important;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+}
+
+.section-slideshow-v5 .item-slide .slide-content {
+  position: absolute;
+  left: 10%;
+  bottom: 80px;
+  transition: all .4s;
+  text-align: left;
+  overflow: hidden;
+}
